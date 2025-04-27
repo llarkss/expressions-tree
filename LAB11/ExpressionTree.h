@@ -9,7 +9,6 @@ struct TreeNode
     TreeNode* left;            
     TreeNode* right;           
 
-   
     TreeNode(std::string val);
 };
 
@@ -18,7 +17,6 @@ class ExpressionTree
 public:
 private:
     TreeNode* rootNode; 
-    
     
     TreeNode* buildExpressionTree(const std::string& expression);
     bool isOperator(char c);
